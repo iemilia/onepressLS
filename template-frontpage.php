@@ -16,7 +16,7 @@ get_header(); ?>
 			if ( ! has_action( 'onepress_frontpage_section_parts' ) ) {
 
 				$sections = apply_filters( 'onepress_frontpage_sections_order', array(
-                    'hero', 'features', 'about', 'services', 'videolightbox', 'gallery', 'counter', 'team',  'news', 'contact'
+                    'hero', 'about', 'services','features',  'blog', 'contact'
                 ) );
 
 				foreach ( $sections as $section ){

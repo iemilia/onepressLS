@@ -2524,11 +2524,16 @@ section > .customize-partial-edit-shortcut button {
 /* Section: About Us
 ------------------------------*/
 .section-about .about-image {
-	text-align: center;
+	float: left
 }
 
 .section-about .about-image img {
 	margin-bottom: 30px;
+	left: 0;
+	margin-left: 0;
+}
+.section-about. about-text{
+	overflow: hidden;
 }
 
 /* Section: Services
